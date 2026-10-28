@@ -14,3 +14,5 @@ Desarrolladora de bases de datos con más de 14 años de experiencia en SQL Serv
 
 Luz Elena Barboza
 
+- **Fase 1:** Python para datos y SQL avanzado
+
