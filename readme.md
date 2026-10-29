@@ -8,11 +8,10 @@ Desarrolladora de bases de datos con más de 14 años de experiencia en SQL Serv
 
 ## Contenido
 
-- **Fase 0:** Git, terminal y Python
+* **Fase 0:** Git, terminal y Python
+* **Fase 1:** Python para datos y SQL avanzado
 
 ## Autora
 
 Luz Elena Barboza
-
-- **Fase 1:** Python para datos y SQL avanzado
 
