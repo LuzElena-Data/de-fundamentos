@@ -1,6 +1,9 @@
+from pathlib import Path
+
 import pandas as pd
 
-df = pd.read_csv("data/lecturas.csv")
+RUTA = Path(__file__).parent.parent / "data" / "lecturas.csv"
+df = pd.read_csv(RUTA)
 
 # print(df)
 # print(df.shape)
