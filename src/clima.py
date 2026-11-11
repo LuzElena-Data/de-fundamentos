@@ -47,11 +47,11 @@ try:
         ya_existe = actual["time"] in existentes["fecha"].values
 
     if ya_existe:
-        logging.warning(f"___")
+        logging.warning(f"El dato de {actual['time']} ya existe, se omite")
     else:
         df = pd.DataFrame([fila])
         df.to_csv(RUTA_CSV, mode="a", header=not RUTA_CSV.exists(), index=False)
-        logging.info(f"___")
+        logging.info(f"Dato de {actual['time']} guardado en el CSV")
     
 
 except requests.exceptions.Timeout:
