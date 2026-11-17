@@ -4,7 +4,7 @@ from pathlib import Path
 import requests
 from dotenv import load_dotenv
 
-import pandas as pd   # ← este va arriba, junto a los demás imports
+import pandas as pd  
 
 
 RAIZ = Path(__file__).parent.parent
@@ -31,7 +31,7 @@ datos = respuesta.json()
 
 filas = datos["response"]["data"]
 print(len(filas))
-print(filas[0])
+#print(filas[0])
 print(type(filas[0]["value"]))
 
 
