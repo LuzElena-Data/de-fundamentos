@@ -15,3 +15,5 @@ print(len(unidos))
 print(unidos.head())
 
 print(unidos["demanda_mwh"].corr(unidos["temperatura_c"]))
+
+unidos.to_csv(RAIZ / "data" / "demanda_clima.csv", index=False)
